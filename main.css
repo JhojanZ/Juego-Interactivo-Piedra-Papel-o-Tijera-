@@ -1,0 +1,16 @@
+.main{
+    width: 100vw;
+}
+
+
+.div-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.button{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
