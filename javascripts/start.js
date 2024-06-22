@@ -17,7 +17,7 @@ export class Start {
 
     endGame() {
         this.gameButtons.forEach(button => {
-            this.menuStart.style.display = 'flex';
+            this.menuStart.style.display = 'grid';
             button.setAttribute('disabled', true);
         });
     }

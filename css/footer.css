@@ -3,3 +3,20 @@
     height: 100px;
     width: 100vw;
 }
+
+.winPlayer{
+    display: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: chocolate;
+    border-width: 10px;
+}
+
+.retry{
+    display: block; 
+    padding: 10px;
+    border-radius: 10px;
+    border-color: chocolate;
+    border-width: 10px;
+}

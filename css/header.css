@@ -1,9 +1,18 @@
 .header{
     display: block;
-    background-color: hsl(119, 225, 119);
+    background-color: rgb(119, 119, 255);
     height: 100px;
     width: 100vw;
     border: none;
     padding: none;
     margin: none;
+}
+
+.winBot{
+    display: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: chocolate;
+    border-width: 10px;
 }
