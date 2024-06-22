@@ -2,11 +2,16 @@
     width: 100vw;
 }
 
+.main--result{
+    text-align: center;
+    padding-bottom: 100px;
+}
 
 .div-buttons{
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
+    margin: 0;
 }
 
 .button{

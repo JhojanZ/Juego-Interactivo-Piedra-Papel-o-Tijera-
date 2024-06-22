@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="body.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="main.css">
-    <!--defer sirve para cargar en simultaneo con el html, sirve para cambios estructurales-->
-    <script src="script.js" defer></script> 
+    <link rel="stylesheet" href="style.css">
+    <!--defer asegura que el script se carga después de que el HTML ha sido completamente cargado-->
+    <script type="module" src="script.js" defer></script>
 </head>
-
 <body class="body">
     <header class="header">
 hola todos
     </header>
 
     <main class="main">
+
+        <div class="main__div div-start">
+            <h1 class="div--start">Rock Paper Scissors</h1>
+            <button class="button button--start">Start</button>
+        </div>
+
+        <h1 class="main--result">Result</h1>
         <div class="main__div div-buttons">
-            <button class="button button--rock" >ROCK</button>
-            <button class="button button--paper">PAPER</button>
-            <button class="button button--scissors">SCISSORS</button>
+            <button class="button button--rock" disabled>ROCK</button>
+            <button class="button button--paper" disabled>PAPER</button>
+            <button class="button button--scissors" disabled>SCISSORS</button>
         </div>
     </main>
     
 
     <footer class="footer">
-
+        todos hola
     </footer>
     
 
