@@ -2,6 +2,14 @@
     width: 100vw;
 }
 
+.div-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .main--result{
     text-align: center;
     padding-bottom: 100px;

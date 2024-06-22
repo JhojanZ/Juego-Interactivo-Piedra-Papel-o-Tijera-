@@ -34,16 +34,25 @@ export class Game {
         return this.bot.player.choice;
     }
 
-    botPlay(){
+    setPlayer_1(p){
+        return this.player_1.player.choice = p;
+    }
+    setPlayer_2(p){
+        return this.player_2.player.choice = p;
+    }
+    setBot(){
         this.bot.player.choice = Math.floor(Math.random()*3);
     }
 
     start(p1, p2=null){
         if(p2 == null){ // Se juega con un bot
-            this.botPlay();
+            this.setPlayer_1(p1);
+            this.setBot();
             return this.winner(p1, this.bot.player.choice);
 
         }else{ // Es un juego de dos jugadores
+            this.setPlayer_1(p1);
+            this.setPlayer_2(p2);
             return this.winner(p1, p2)
         }
     }
