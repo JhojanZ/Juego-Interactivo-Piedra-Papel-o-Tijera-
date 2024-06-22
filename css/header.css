@@ -1,6 +1,6 @@
 .header{
     display: block;
-    background-color: aqua;
+    background-color: hsl(119, 225, 119);
     height: 100px;
     width: 100vw;
     border: none;

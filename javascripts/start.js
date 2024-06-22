@@ -2,21 +2,22 @@ export class Start {
 
     constructor() {
         this.menuStart = document.querySelector('.div-start');
-        this.startButton = document.querySelector('.button--start');
+        this.startButtonBot = document.querySelector('.button-start--bot');
+        this.startButtonPlayer2 = document.querySelector('.button-start--player2');
         this.gameButtons = document.querySelectorAll('.div-buttons .button');
         this.init(); //Se ejecuta automaticamente al inicializar la clase
     }
 
     init() {
-        this.startButton.addEventListener('click', () => {
-            this.startButton.style.display = 'none';
+        this.startButtonBot.addEventListener('click', () => {
+            this.menuStart.style.display = 'none';
             this.activateGameButtons();
         });
     }
 
     endGame() {
         this.gameButtons.forEach(button => {
-            this.startButton.style.display = 'block';
+            this.menuStart.style.display = 'flex';
             button.setAttribute('disabled', true);
         });
     }

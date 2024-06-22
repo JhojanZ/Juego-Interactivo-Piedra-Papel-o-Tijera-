@@ -1,4 +1,8 @@
 .body{
+    
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+        url("https://th.bing.com/th/id/R.ee6a56eaf831baeccad6d28fa5233b04?rik=ndgzbBVm0SMTlg&pid=ImgRaw&r=0");
     display: flex;
     flex-flow: wrap column;
     justify-content: space-between;

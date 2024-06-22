@@ -3,12 +3,28 @@
 }
 
 .div-start{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    position: absolute;
+    background-color: yellowgreen;
+    height: 300px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.div-grid {
+    display: grid;
+    grid-template-areas:
+        "div-start"
+        "input--rounds"
+        "rounds-input"
+        "button-start--bot button-start--player2";
+    gap: 10px;
     justify-content: center;
     align-items: center;
-
 }
+
+
 
 .main--result{
     text-align: center;
@@ -20,6 +36,16 @@
     justify-content: space-evenly;
     gap: 10px;
     margin: 0;
+}
+
+.div__img{
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 1000%;
+
 }
 
 .button{

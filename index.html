@@ -16,19 +16,38 @@ hola todos
 
     <main class="main">
 
+        <div class="counter">Puntos: <span id="points">0</span></div>
+
         <div class="main__div div-start">
-            <h1 class="div--start">Rock Paper Scissors</h1>
-            <input class="div__input input--rounds" type="number" name="rounds" min="1" value="3">
-            <label class="input--rounds" for="rounds">Seleccione el numero de rondas</label>
-            <button class="input__button button--start">Start</button>
+            <div class="main__div div-grid">
+                
+                <h1 class="div--start">Rock Paper Scissors</h1>
+
+                <label class="input--rounds" for="rounds">Seleccione el numero de rondas</label>
+                <input class="div__input input--rounds" type="number" name="rounds" min="1" value="3">
+                
+                
+                <button class="input__button button-start--bot">1 Jugador</button>
+                <button class="input__button button-start--player2">2 Jugadores</button>
+            </div>
         </div>
         
         <h1 class="main--result">Result</h1>
         <div class="main__div div-buttons">
-            <button class="button button--rock" disabled>ROCK</button>
-            <button class="button button--paper" disabled>PAPER</button>
-            <button class="button button--scissors" disabled>SCISSORS</button>
+            <button class="button button--rock" disabled>
+                <img class="div__img button--rock" src="./Img/mano.png" alt="rock"></img>
+            </button>
+            <button class="button button--paper" disabled>
+                <img class="div__img button--paper" src="./Img/papel-de-mano.png" alt="paper"></img>
+            </button>
+            <button class="button button--scissors" disabled>
+                <img class="div__img button--scissors" src="./Img/tijeras.png" alt="scissors"></img>
+            </button>
         </div>
+
+
+
+        <!--Imagen-->
     </main>
     
 
